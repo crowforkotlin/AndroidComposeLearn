@@ -1,4 +1,4 @@
-package com.crow.learn.compose
+package com.crow.mordecai.compose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -25,8 +25,8 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.crow.learn.compose.ui.initializeSplashScreen
-import com.crow.learn.compose.ui.theme.AndroidComposeLearnTheme
+import com.crow.mordecai.compose.ui.initializeSplashScreen
+import com.crow.mordecai.compose.ui.theme.AndroidComposeLearnTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

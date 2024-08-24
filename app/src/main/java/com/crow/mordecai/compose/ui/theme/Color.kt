@@ -1,4 +1,4 @@
-package com.crow.learn.compose.ui.theme
+package com.crow.mordecai.compose.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

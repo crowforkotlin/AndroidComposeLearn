@@ -1,6 +1,6 @@
 [versions]
 junit = "4.13.2"
-kotlin = "2.0.0"
+kotlin = "2.0.20"
 network-okhttp = "5.0.0-alpha.14"
 network-retrofit = "2.11.0"
 json-moshi = "1.15.1"

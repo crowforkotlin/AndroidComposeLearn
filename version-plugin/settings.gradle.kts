@@ -6,11 +6,11 @@ dependencyResolutionManagement {
         create("libs") { from(files("toml/libs.versions.toml") ) }
     }
     repositories {
-        maven { setUrl("https://maven.aliyun.com/nexus/content/groups/public/") }
-        maven { setUrl("https://maven.aliyun.com/repository/central") }
-        maven { setUrl("https://maven.aliyun.com/repository/google") }
-        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
-        maven { setUrl("https://maven.aliyun.com/repository/public") }
+//        maven { setUrl("https://maven.aliyun.com/nexus/content/groups/public/") }
+//        maven { setUrl("https://maven.aliyun.com/repository/central") }
+//        maven { setUrl("https://maven.aliyun.com/repository/google") }
+//        maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
+//        maven { setUrl("https://maven.aliyun.com/repository/public") }
         maven { setUrl("https://plugins.gradle.org/m2/") }
         maven { setUrl("https://jitpack.io") }
         mavenCentral()

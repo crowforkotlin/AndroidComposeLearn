@@ -4,8 +4,8 @@ plugins {
 
 android {
     defaultConfig {
-        namespace = "com.crow.learn.compose"
-        applicationId = "com.crow.learn.compose"
+        namespace = "com.crow.mordecai.compose"
+        applicationId = "com.crow.mordecai.compose"
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -40,9 +40,10 @@ android {
     }
 }
 dependencies {
-    api(app.androidx.core)
-    api(app.androidx.activity)
-    api(app.androidx.appcompat)
-    api(app.androidx.material)
-    api(app.androidx.constraintlayout)
+    implementation(app.androidx.core)
+    implementation(app.androidx.activity)
+    implementation(app.androidx.appcompat)
+    implementation(app.androidx.material)
+    implementation(compose.androidx.foundation)
+    implementation(app.androidx.constraintlayout)
 }

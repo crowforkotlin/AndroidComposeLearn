@@ -1,4 +1,4 @@
-package com.crow.learn.compose
+package com.crow.mordecai.compose
 
 import org.junit.Test
 

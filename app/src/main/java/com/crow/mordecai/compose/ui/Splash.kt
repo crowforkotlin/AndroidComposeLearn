@@ -1,4 +1,4 @@
-package com.crow.learn.compose.ui
+package com.crow.mordecai.compose.ui
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
